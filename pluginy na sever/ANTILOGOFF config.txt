@@ -1,0 +1,20 @@
+#AntiLogOff Settings.
+#Guide: teamld.github.io/alo/
+
+settings:
+  timer-duration: 30
+  punish-on-logoff: true
+  punishment: "kill"  # kill/damage/ban/none
+  bossbar-color: "BLUE"  # RED, PINK, BLUE, GREEN, YELLOW, PURPLE, WHITE, CUSTOM_RGB
+
+  # For CUSTOM_RGB color
+  bossbar-rgb:
+    red: 255
+    green: 0
+    blue: 0
+
+messages:
+  combat-start: "§3Jesteś podczas walki! Nie logaj przez %time% sekund."
+  combat-end: "§3Walka sie skonczyla. Mozesz sie wylogowac."
+  bossbar-text: "§3WALKA: %time%s | Nie logaj!"
+  punished-message: "§3Zostales zabity przez loganie podczas walki!"

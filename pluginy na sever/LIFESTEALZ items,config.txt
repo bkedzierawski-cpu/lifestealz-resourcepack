@@ -1,0 +1,44 @@
+w defaultheart:
+zmien:
+15	material: "RED_DYE"
+62	invulnerable: true
+8	name: 
+11	lore: - "&7Kliknij prawym, zeby uzyc"
+49	crafting:
+rowOne:
+        - "DIAMOND_BLOCK"
+        - "DIAMOND_BLOCK"
+        - "DIAMOND_BLOCK"
+      rowTwo:
+        - "OBSIDIAN"
+        - "ENCHANTED_GOLDEN_APPLE"
+        - "OBSIDIAN"
+      rowThree:
+        - "DIAMOND_BLOCK"
+        - "DIAMOND_BLOCK"
+        - "DIAMOND_BLOCK"
+
+
+(74) w revive:
+name: "&cBlok Odrodzenia"
+lore:
+- "&7Kliknij prawym,"
+    - "&7zeby uzyc!"
+crafting: rowOne:
+        - "DIAMOND_BLOCK"
+        - "GOLD_BLOCK"
+        - "DIAMOND_BLOCK"
+      rowTwo:
+        - "OBSIDIAN"
+        - "defaultheart"
+        - "OBSIDIAN"
+      rowThree:
+        - "DIAMOND_BLOCK"
+        - "defaultheart"
+        - "DIAMOND_BLOCK"
+
+invulnerable: true
+
+config.yml/
+65	dropHeartsPlayer: true
+35	reviveHearts: 10
